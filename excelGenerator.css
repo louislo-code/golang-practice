@@ -1,0 +1,59 @@
+body{
+    background-color: aquamarine;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 1.5rem;
+  font: 1rem/1.5 "PT Sans", Arial, sans-serif;
+  color: #5a5a5a;
+}
+.winzHeader{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height:auto;
+    width:100vw;
+    font-size: 3vw;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#fileInput{
+    background-color: #666666;
+    color:azure;
+}
+.inputField{
+    margin-top: 2vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.input{
+    display: flex;
+        justify-content: center;
+    width:30vw;
+}
+
+.buttonField{
+    margin-top: 2vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.export_button{
+    height:10vh;
+    width:40%;
+    background-color: #23679b;
+    color:white;
+    border-radius: 5%;
+    
+}
